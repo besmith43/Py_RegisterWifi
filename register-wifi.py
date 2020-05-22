@@ -6,8 +6,8 @@ import sys
 def Run_Windows():
     file = open("home-wifi.xml","w")
 
-    file.write("<?xml version="1.0"?>\n")
-    file.write("<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">\n")
+    file.write("<?xml version=\"1.0\"?>\n")
+    file.write("<WLANProfile xmlns=\"http://www.microsoft.com/networking/WLAN/profile/v1\">\n")
     file.write("	<name>Nerd House_5G</name>\n")
     file.write("	<SSIDConfig>\n")
     file.write("		<SSID>\n")
@@ -31,7 +31,7 @@ def Run_Windows():
     file.write("			</sharedKey>\n")
     file.write("		</security>\n")
     file.write("	</MSM>\n")
-    file.write("	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">\n")
+    file.write("	<MacRandomization xmlns=\"http://www.microsoft.com/networking/WLAN/profile/v3\">\n")
     file.write("		<enableRandomization>false</enableRandomization>\n")
     file.write("		<randomizationSeed>2955902897</randomizationSeed>\n")
     file.write("	</MacRandomization>\n")
